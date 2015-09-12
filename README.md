@@ -1,1 +1,1 @@
-闲着没事做做界面也是挺不错的
+ If you are passionate about something, pursue it, no matter what anyone else thinks. That's how dreams are achieved。
