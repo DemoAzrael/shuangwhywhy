@@ -1,0 +1,295 @@
+body {
+    width: 100%;
+    margin: 0;
+    background:#EFEFEF;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    font-size: 12px;
+}
+.index_focus img{
+    width:100%;
+}
+.index_focus ul li {
+    position:absolute;
+    left:0;
+    top:0;
+}
+.index_focus {
+    position: relative;
+    color: #CCC;
+    cursor:pointer;
+}
+.slide_nav {
+    font-size: 28px;
+    position: absolute;
+    left: 50%;
+    bottom:2%;
+    margin-left: -122px;
+}
+.index_focus .slide_nav .j_goto {
+    font-size: 28px;
+    font-family: arial;
+    color: #CCC;
+    opacity: 0.8;
+    margin:0;
+}
+.J_toggle {
+    position: absolute;
+    top: 50%;
+    margin-top: -36px;
+    width: 72px;
+    height: 72px;
+    z-index: 887;
+    overflow: hidden;
+    background: transparent url(../images/ico/ico_sliding_910.png);
+    display:none;
+}
+.index_focus_pre {
+    left: 30px;
+    background-position: 0 0;
+}
+.index_focus_pre:hover {
+    background-position: 0 -144px;
+}
+.index_focus_next {
+    right: 30px;
+    background-position: 0 -72px !important;
+}
+.index_focus_next:hover {
+    background-position: 0 -216px !important;
+}
+
+.slide_nav .current{
+    color:#86AA28 !important;
+}
+.slide_nav .j_goto:hover{
+    color:#86AA28 !important;
+}
+.index_focus ul li .mess{
+    position:absolute;
+    bottom:20%;
+    left:10%;
+    width:550px;
+    height:185px;
+    background:url(../images/ico/index_focus_bg.png);
+}
+.index_focus ul li .mess h3{
+    font-family: 微软雅黑,u9ed1u4f53,"Lucida Grande";
+    font-size:36px;
+    color:white;
+    font-weight:500;
+    line-height:1px;
+}
+.index_focus ul li .mess p{
+    font-size:14px;
+    color:white;
+}
+.control .playback{
+	position:fixed;
+	top:8px;
+	left:580px;
+    z-index:889;
+}
+#playlist{
+	display:none
+}
+.title_bar{
+    position:relative;
+    width:1240px;
+    height:80px;
+    margin:20px auto;
+    overflow:hidden;
+    background:url('../images/index/shuangwhywhy.png') no-repeat;
+}
+.title_bar .bannerflash{
+    height:80px;
+    width:1240px;
+}
+.title_bar .bannerflash embed{
+    position:absolute;
+    left:100px;
+    top:-20px;
+}
+.content .module{
+    width:1240px;
+    margin:0 auto;
+    margin-bottom:80px;
+}
+.content .module .ico{
+    width:80px;
+    float:left;
+}
+.content .module .other{
+    float:right;
+    height:20px;
+    font-size:14px;
+    margin-top:30px;
+    margin-right:30px;
+}
+.content .module .other a{
+    font: 12px/1.5 Tahoma,"微软雅黑","Microsoft Yahei","hiragino sans gb",Helvetica,Arial,"宋体","sans-serif";
+    padding:5px;
+    color:#666666;
+}
+.content .module .other .ico_line{
+    width: 2px;
+    height: 10px;
+    margin: 0px 8px;
+    display: inline-block;
+    overflow: hidden;
+    background: transparent url("../images/ico/ico_index.png") no-repeat scroll -70px 0px;
+}
+.content .module .other a:hover{
+    color:white;
+    background:#86AA28;
+}
+
+.content .module .title{
+    font: 12px/1.5 Tahoma,"微软雅黑","Microsoft Yahei","hiragino sans gb",Helvetica,Arial,"宋体","sans-serif";
+    float:left;
+    color:#86AA28;
+    font-size:25px;
+    line-height:51px;
+    margin-bottom:15px;
+    font-weight:400
+}
+.content .module .index_list{
+    clear:both;
+    width:1240px;
+    height:298px;
+}
+.content .module .index_wid716{
+    width: 720px;
+    height:277px;
+    margin-right: 22px;
+    background:white;
+    margin-right:22px;
+    float:left;
+    position:relative;
+}
+.content .module .index_wid716 img{
+    margin:2px 0 2px 2px;
+    float:left;
+}
+.content .module .index_wid716 .play_ico{
+    position:absolute;
+    top:100px;
+    left:210px;
+    height:61px;
+    width:61px;
+    overflow:hidden;
+    display:none;
+}
+.content .module .index_wid716 .download{
+    display:none;
+    position:absolute;
+    bottom:5px;
+    left:5px;
+}
+.content .module .index_wid716 .download img{
+    width:30px;
+}
+.content .module .index_wid716 .index_info{
+    padding: 10px 15px;
+    margin:0;
+    width: 218px;
+    float:left;
+}
+.content .module .index_wid716 .index_info h4{
+    color:#333333;
+    font-size: 18px;
+    font-family: 微软雅黑,u9ed1u4f53,"Lucida Grande";
+    font-weight:500;
+    margin:0;
+}
+.content .module .index_wid716 .index_info span{
+   font: 12px/1.5 Tahoma,"微软雅黑","Microsoft Yahei","hiragino sans gb",Helvetica,Arial,"宋体","sans-serif";
+   color:#666
+}
+.content .module .index_wid716 .index_info  p{
+   font: 14px/1.5 Tahoma,"微软雅黑","Microsoft Yahei","hiragino sans gb",Helvetica,Arial,"宋体","sans-serif";
+    line-height:5px;
+   color:#86AA28;
+}
+.shadow{
+    border: 1px solid #E8E8E8;
+    display:block
+}
+.shadow:hover {
+    box-shadow: 0 0 3px #690;
+    border: 1px solid #B4C88B;
+}
+.content .module .pic_1x2{
+    float: left;
+    position: relative;
+    width: 232px;
+    height:298px;
+    margin-right: 16px;
+    padding:0;
+}
+.content .module .pic_1x2 .pic{
+    width:224px;
+    height:128px;
+    background:white;
+    margin:3px 0 17px 3px;
+    position:relative;
+}
+.content .module .pic_1x2 img{
+    clear:both;
+    width:220px;
+    height:124px;
+    margin:2px;
+}
+.content .module .pic_1x2 .play_ico1{
+    position:absolute;
+    top:40px;
+    left:90px;
+    height:45px;
+    width:40px;
+    background:url('../images/ico/ico_play_718.png') -10px 45px;
+    display:none;
+}
+.content .module .pic_1x2 .download{
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    display:none
+}
+.content .module .pic_1x2 .download img{
+    width:16px;
+    height:18px;
+}
+.content .module .pic_1x2 .pic .zhezhao{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.content .module .pic_1x2 .pic h4{
+    position:absolute;
+    top:80px;
+    left:10px;
+    margin:0;
+    font-weight:800;
+    font-size:13px;
+    color:white;
+}
+.content .module .pic_1x2 .pic p{
+    position:absolute;
+    top:100px;
+    left:10px;
+    margin:0;
+    font-size:12px;
+    color:#CCFF99;
+
+}

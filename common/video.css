@@ -1,0 +1,10 @@
+.sae_video .video{
+    position:absolute;
+    background:black;
+}
+.ui-dialog-titlebar{
+  background:#86AA28;
+}
+.ui-dialog{
+    padding:0;
+}

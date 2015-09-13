@@ -1,0 +1,172 @@
+.header {
+    position:fixed;
+    top:0;
+    z-index:888;
+    width: 100%;
+    height: 41px;
+    background: black;
+}
+.header_current{
+    color:#86AA28;
+    font-weight:800
+}
+.header_top{
+    width: 100%;
+    height: 41px;
+}
+.header_bg {
+    width: 100%;
+    height: 41px;
+    background: url('../images/ico/topbar_bg.png') repeat-x;
+}
+
+.header_bg img {
+    height: 41px;
+    float: left;
+}
+
+.header_bg .logo {
+    margin-left: 25px;
+}
+
+.header_bg .head {
+    margin-left: -5px;
+}
+
+.header_bg .left_park_side, .header_bg .right_park_side {
+    position: absolute;
+    width: 15px;
+    height: 29px;
+    top: 6px
+}
+
+.header_bg .left_park_side {
+    background: url('../images/ico/topbar_sprite2.png') scroll 0 0;
+    left: 708px;
+}
+
+.header_bg input {
+    position: absolute;
+    left: 723px;
+    width: 150px;
+    height: 29px;
+    border: none;
+    background: #D8D8D8;
+    top: 6px;
+    color: #AFAFAF;
+    padding:0;
+    font-size: 14px;
+}
+
+.header_bg button {
+    position: absolute;
+    top: 13px;
+    left: 856px;
+    border: none;
+    width: 16px;
+    height: 17px;
+    cursor: pointer;
+    background: #D8D8D8 url("../images/ico/topbar_sprite2.png") no-repeat scroll -223px -1px;
+}
+
+.header_bg .right_park_side {
+    background: url('../images/ico/topbar_sprite2.png') -208px 0;
+    left: 873px;
+}
+
+.header_bg ul li {
+    position:relative;
+    height: 41px;
+    padding: 0 15px;
+    float: left;
+    line-height: 41px;
+    cursor:pointer;
+}
+.header_bg ul li:hover{
+    background:black;
+}
+.header_bg .name {
+    float: left;
+    color:#999
+}
+
+.header_bg b {
+    float: left;
+    width: 7px;
+    height: 4px;
+    margin: 19px 0 0 5px;
+    background: transparent url('../images/ico/topbar_sprite2.png') scroll -223px -18px;
+}
+
+.header_bg .about {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    color:#999;
+    font-size: 12px;
+}
+.header_bg .about a{
+    color:#999
+}
+.header_bg .feedback {
+    position: absolute;
+    right: 60px;
+    top: 12px;
+    color:#999;
+    font-size: 12px;
+    padding-right: 10px;
+    border-right: 1px solid #999;
+}
+.header_bg .feedback a{
+    color:#999
+}
+.header_bg ul li .more{
+    position:absolute;
+    width:91px;
+    top:41px;
+    left:0;
+    background:black;
+    display:none;
+}
+.header_bg ul li .more div{
+    width:71px;
+    line-height:20px;
+    height:8px;
+    margin:0;
+    padding: 5px 12px 5px 8px;
+    color:#999;
+}
+.header_bg ul li .more div:hover{
+    background:#86AA28;
+    color:white;
+}
+.header .music{
+    position:relative;
+}
+.header .music img{
+    margin-top:6px;
+    width:29px;
+    height:29px;
+    margin-right:5px;
+}
+.header .music marquee{
+    position:absolute;
+    top:6px;
+    width:85px;
+    color:#999;
+    overflow:hidden;
+    line-height:29px;
+    height:29px;
+    font-size:13px;
+    margin-left:23px
+}
+.header .music a{
+    position:absolute;
+    width:20px;
+    height:41px;
+    background:url('../images/ico/play.png') no-repeat center;
+    opacity:0.5
+}
+.header .music a:hover{
+    opacity:1;
+}
