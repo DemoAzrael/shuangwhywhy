@@ -83,7 +83,7 @@
             $(this).find('p').css({
                 "color":"#42CA06"
             });
-            m_change(index);  
+            m_change(index);
             show_content("content/"+index+".php");
         });
     })(jQuery);
